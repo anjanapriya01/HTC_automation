@@ -1,0 +1,19 @@
+{
+  "name": "htc_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/cypress/bin/cypress run",
+    "runtests": "npm run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.6.0"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.0.1"
+  }
+}
